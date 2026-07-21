@@ -8,7 +8,7 @@ int main() {
 
   // TODO: Uncomment the code below to pass the first stage
    std::cout << "$ ";
-  std:: string name;
+   std:: string name;
    std:: cin >> name;
-   std:: cout << name ; "not found";
+   std:: cout << name << "not found";
 }

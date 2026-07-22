@@ -11,11 +11,10 @@ int main() {
    std:: string name;
    std:: cin >> name;
    if (name == "exit") {
-     break;
+     break;}
    if (name != "exit") {
    std:: cout << name << ": command not found\n";
   
-}
 }
 }
 }

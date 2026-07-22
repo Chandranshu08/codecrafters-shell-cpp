@@ -11,7 +11,7 @@ int main() {
    std:: string name;
    std:: cin >> name;
    if (name == "exit") {
-   std:: cout << name << ": command not found\n";
+   std:: cout << name << ": command not found";
    break;
 }
 }

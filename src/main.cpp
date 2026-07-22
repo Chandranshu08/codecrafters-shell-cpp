@@ -6,7 +6,7 @@ int main() {
   std::cout << std::unitbuf;
   std::cerr << std::unitbuf;
   
-  if (input == "exit") {
+  if ("exit") {
     
   while (true) {
    std::cout << "$ ";

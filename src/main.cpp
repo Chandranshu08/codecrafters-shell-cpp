@@ -7,9 +7,9 @@ int main() {
   std::cerr << std::unitbuf;
 
   while (true) {
-   std::cout << "$ ";
+   std::cout << "$";
    std:: string name;
    std:: cin >> name;
-   std:: cout << name << ": command not found";
+   std:: cout << name << ": command not found\n";
 }
 }

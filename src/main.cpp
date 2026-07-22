@@ -5,11 +5,15 @@ int main() {
   // Flush after every std::cout / std:cerr
   std::cout << std::unitbuf;
   std::cerr << std::unitbuf;
-
+  
+  if (input == "exit") {
+    
   while (true) {
    std::cout << "$ ";
    std:: string name;
    std:: cin >> name;
    std:: cout << name << ": command not found\n";
+   break;
+}
 }
 }

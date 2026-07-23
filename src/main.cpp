@@ -7,14 +7,14 @@ int main() {
   std::cerr << std::unitbuf;
   
   while (true) {
-   std::cout << "\n$ ";
+   std::cout << "$ ";
    std:: string name;
    std:: string input;
    
 
     std::getline(std::cin, input);
    if (input.substr(0,4) == "echo"){
-     std:: cout << input.substr(5);
+     std:: cout << input.substr(5) << std::endl ;
    }
 
    if (name == "exit") {

@@ -11,7 +11,7 @@ int main() {
    std:: string name;
    std:: cin >> name;
    if (name.substr(0,4) == "echo"){
-     std:: cout << name.substr(5)
+     std:: cout << name.substr(5);
    }
    if (name == "exit") {
      break;}

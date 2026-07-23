@@ -17,9 +17,12 @@ int main() {
      std:: cout << input.substr(5) << std::endl ;
    }
 
-   if (name == "exit") {
+   else if (name == "exit") {
      break;}
 
+  else if (name != "exit" ) {
+   std:: cout << name << ": command not found\n";
+   }
  
 
 

@@ -10,11 +10,11 @@ int main() {
    std::cout << "$ ";
    std:: string name;
    std:: string input;
-   
+   std:: cin >> name;
 
     std::getline(std::cin, input);
    if (input.substr(0,4) == "echo"){
-     std:: cout << name.substr(5);
+     std:: cout << input.substr(5);
    }
 
    if (name == "exit") {

@@ -20,7 +20,7 @@ int main() {
    if (name == "exit") {
      break;}
 
-   
+   if (name != "exit" && name != "echo")
    std:: cout << name << ": command not found\n";
 
 

@@ -7,7 +7,7 @@ int main() {
   std::cerr << std::unitbuf;
   
   while (true) {
-   std::cout << "$ ";
+   std::cout << "\n$ ";
    std:: string name;
    std:: string input;
    
